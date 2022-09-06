@@ -1,6 +1,6 @@
 # Remix starter template using ClavaScript
 
-The original `app/root.jsx` and `app/routes/index.jsx` are renamed with a `_orig.jsx` suffix while `app/root.jsx` and `app/routes/index.js` are compiled from `app/root.cljs` and `app/routes/index.cljs` respectively.
+The original `app/root.jsx` and `app/routes/index.jsx` are renamed with a `_orig.jsx` suffix while `app/root.jsx` and `app/routes/index.js` are compiled from `app/root.cljs` and `app/routes/index.cljs` respectively, using [ClavaScript](https://github.com/clavascript/clavascript).
 
 Original Remix Readme following.
 
