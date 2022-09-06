@@ -1,0 +1,11 @@
+node_modules
+
+/.cache
+/build
+/public/build
+.env
+.DS_Store
+.clj-kondo/.cache/v1/lock
+.clj-kondo/.cache/v1/cljs/root.transit.json
+.clj-kondo/.cache/v1/cljs/user.transit.json
+.lsp/.cache/db.transit.json
