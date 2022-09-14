@@ -1,6 +1,13 @@
-# Remix starter template using ClavaScript
+# Remix starter template using Squint
 
-The original `app/root.jsx` and `app/routes/index.jsx` are renamed with a `_orig.jsx` suffix while `app/root.jsx` and `app/routes/index.js` are compiled from `app/root.cljs` and `app/routes/index.cljs` respectively, using [ClavaScript](https://github.com/clavascript/clavascript).
+The original `app/root.jsx` and `app/routes/index.jsx` are renamed with a `_orig.jsx` suffix while `app/root.jsx` and `app/routes/index.js` are compiled from `app/root.cljs` and `app/routes/index.cljs` respectively, using [Squint](https://github.com/squint-cljs/squint).
+
+Current obstacle: Using CLJS standard library functions breaks the Remix build because of unsupported `require` statements:
+
+```sh
+Error [ERR_REQUIRE_ESM]: require() of ES Module /node_modules/squint-cljs/core.js from /build/index.js not supported.
+Instead change the require of core.js in /build/index.js to a dynamic import() which is available in all CommonJS modules.
+```
 
 Original Remix Readme following.
 

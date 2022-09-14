@@ -9,3 +9,4 @@ node_modules
 .clj-kondo/.cache/v1/cljs/root.transit.json
 .clj-kondo/.cache/v1/cljs/user.transit.json
 .lsp/.cache/db.transit.json
+.clj-kondo

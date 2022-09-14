@@ -6,9 +6,10 @@
                                         Scripts
                                         ScrollRestoration]]))
 
+
 (defn meta []
   {:charset "utf-8"
-   :title "New Remix App from ClavaScript"
+   :title "Squinting Remix"
    :viewport "width=devide-width,initial-scale=1"})
 
 (defn App []
@@ -17,6 +18,8 @@
          [Meta]
          [Links]]
         [:body
+         {:style {:fontFamily "system-ui, sans-serif"
+                  :lineHeight "1.4"}}
          [Outlet]
          [ScrollRestoration]
          [Scripts]
